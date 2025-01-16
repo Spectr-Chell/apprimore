@@ -1,0 +1,40 @@
+.button {
+    padding: 0.8rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .button:disabled {
+    cursor: not-allowed;
+  }
+  
+  .button.active {
+    background: #3e6ae1;
+    color: #fff;
+  }
+
+.MenuButton {
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  margin-right: 1rem;
+  background-color: #ebebeb;
+}
+
+.MenuButton:hover {
+    background-color: #aaaaaa;
+    transform: rotate(20deg);
+}
+
+.MenuButton:disabled {
+  cursor: not-allowed;
+}

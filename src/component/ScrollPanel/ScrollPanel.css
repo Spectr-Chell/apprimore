@@ -1,0 +1,15 @@
+.scroll-panel {
+    position: absolute;
+    overflow-y: auto; 
+    border: 3px solid #ccc; 
+    border-radius: 3px;
+    padding: 10px; 
+}
+
+.content {
+    position: relative;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 1px solid #cfcfcf; 
+    background-color: rgb(212, 212, 212);
+}
